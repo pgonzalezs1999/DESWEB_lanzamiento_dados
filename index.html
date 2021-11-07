@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Actividad 2 - Dados</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Actividad 2. Lanzamiento de dados</h1>
+        <p>Pulsa un dado para lanzarlo. Vuelve a pulsarlo para detener el lanzamiento</p>
+        <div class="contenedor">
+            <div class="dado" ondblclick="lanzarA()" onclick="pararA()">
+                <img id="dadoA" src="imagenes/1.png" style="height:100px"/>
+                <p id="resultadoA">Ha salido un 1</p>
+            </div>
+            <div class="dado" ondblclick="lanzarB()" onclick="pararB()">
+                <img id="dadoB" src="imagenes/1.png" style="height:100px"/>
+                <p id="resultadoB">Ha salido un 1</p>
+            </div>
+        </div>
+        <p id="suma">Aún no se han lanzado los dados...</p>
+    </body>
+    <script src="js.js"></script>
+</html>

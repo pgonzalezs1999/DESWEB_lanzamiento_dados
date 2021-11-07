@@ -1,0 +1,16 @@
+.contenedor
+{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.dado
+{
+    flex: 1;
+}
+
+#suma
+{
+    text-align: center;
+}    
